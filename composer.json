@@ -1,0 +1,28 @@
+{
+  "name": "bendavison/mandrill",
+  "description": "API client library for the Mandrill email as a service platform - Tracks official branch",
+  "type": "library",
+  "version": "1.0.55",
+  "keywords": ["email", "api"],
+  "require": {
+    "php": ">=5.2.0"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Ben Davison",
+      "email": "ben@bendavison.co.uk"
+    },
+    {
+      "name": "Mandrill Devs",
+      "email": "community@mandrill.com",
+      "homepage": "http://mandrill.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mandrill\\": "src/"
+    }
+  }
+}
